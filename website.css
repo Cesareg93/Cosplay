@@ -1,0 +1,62 @@
+header {
+	text-align: center;
+	font-size: 30px;
+	background-color: crimson;
+	color: black;
+	opacity: 0.5;
+}
+
+/* make sure the background and text are friendly to the user */
+
+body {
+	background-color: black;
+}
+
+/* all my text editing goes here */
+
+h1, h2, h3, p {
+	text-align: left;
+	font-size: 20px;
+	color: red;
+	padding-left: 12px;
+}
+
+ul {
+	text-align: left;
+	font-size: 20px;
+	color: red;
+}
+
+/* My table for the schedule example starts here */
+
+table {
+	border-collapse: collapse;
+	color: red;
+}
+
+td {
+	color: red;
+	font-size: 15px;
+	text-align: center;
+}
+
+table th {
+text-align: left;
+background-color: #3a6070;
+color: #FFF;
+padding: 4px 30px 4px 8px
+}
+
+table td {
+border: 1px solid #e3e3e3;
+padding: 4px 8px;
+}
+
+footer {
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	background-color: crimson;
+	position: static; bottom:0; left:0; right: 0; height: 30px; opacity: 0.5;
+	padding: 10px;
+}
